@@ -1,0 +1,8 @@
+{
+  "name": "smartcontract-demo",
+  "version": "0.0.1",
+  "description": "Hyperledger Composer Smart Contract Demo",
+  "scripts": {
+    "start": "start \"\" \"C:\\Users\\Asus\\Desktop\\Prep\\transaction-result.html\""
+  }
+}

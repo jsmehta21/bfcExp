@@ -1,0 +1,20 @@
+namespace org.example.basic
+
+participant Farmer identified by farmerId {
+  o String farmerId
+  o String name
+  o Double balance
+}
+
+asset Crop identified by cropId {
+  o String cropId
+  o String cropType
+  o Double price
+  --> Farmer owner
+}
+
+transaction SellCrop {
+  --> Crop crop
+  --> Farmer buyer
+  o Double amount
+}

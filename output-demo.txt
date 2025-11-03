@@ -1,0 +1,18 @@
+> Executing transaction: SellCrop
+
+✔ Transaction ID: TX12345
+✔ Crop ID: CROP001
+✔ Seller: F001 (Alice)
+✔ Buyer: F002 (Bob)
+✔ Amount: 500.00
+
+Updating crop ownership...
+Updating farmer balances...
+
+✔ Transaction successfully committed to blockchain ledger.
+✔ New owner of Crop CROP001: F002 (Bob)
+✔ Ledger updated at: 2025-11-03T22:45:12Z
+
+Blockchain Event:
+  eventType: CropSold
+  details: { cropId: "CROP001", from: "F001", to: "F002", amount: 500 }
